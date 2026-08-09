@@ -70,18 +70,23 @@ The dataset is not included in this repository.
 ## How to Run
 
 1. Download the KSDD2 dataset.
-2. Install the required packages:
+
+2. Download the trained model weights:
+
+[Download trained model weights](https://drive.google.com/file/d/17xrwEPIo7foRC8fccb0OBXmYYn19XSHZ/view?usp=sharing)
+
+3. Place `cam_multitask_densenet_ksdd.pth` in the project folder.
+
+4. Install the required packages:
 
 ```bash
 pip install -r requirements.txt
+```
 
-```text
-3. Open `train_cam_multitask.ipynb` to train the model.
-4. Open `evaluate_model.ipynb` to evaluate the model.
+5. Open `train_cam_multitask.ipynb` to train the model.
+6. Open `evaluate_model.ipynb` to evaluate the model.
 
 ## Documentation
 
 The Documentation folder contains the project report and presentation.
-
-The dataset details, model configuration, and results above are taken from your uploaded project report/presentation.
 
